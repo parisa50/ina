@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #ffe4b5; /* สีพื้นหลังอ่อน */
+}
+
+/* ปุ่มกลับ */
+.back-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #ff80bf;
+  color: #000;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.back-btn:hover {
+  background-color: #ff4da6;
+  color: white;
+}
+
+/* หัวข้อ */
+.title {
+  text-align: center;
+  margin: 20px auto;
+  background-color: #ff80bf;
+  display: block;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 28px;
+  width: fit-content; /* ให้กล่องพอดีกับข้อความ */
+}
+
+/* คอนเทนต์ */
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 40px;
+  flex-wrap: wrap; /* ทำให้ responsive */
+}
+
+/* รูป */
+.image-container img {
+  width: 150px;   /* ขนาดปานกลาง */
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* กล่องคำคม */
+.quote-container {
+  max-width: 400px;
+  text-align: left;
+}
+
+.quote {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.quote-th {
+  font-size: 18px;
+  color: #555;
+}
